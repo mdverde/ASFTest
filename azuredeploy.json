@@ -525,13 +525,13 @@
                   "publisher": "Microsoft.Compute",
                   "settings": {
                     "fileUris": [
-                      "[concat(parameters('_artifactsLocation'), parameters('scriptFileName'))]"
+                      "https://raw.githubusercontent.com/mdverde/ASFTest/master/scripts/"
                     ]
                   },
                   "typeHandlerVersion": "1.8",
                   "autoUpgradeMinorVersion": true,
                   "protectedSettings": {
-                    "commandToExecute": "https://raw.githubusercontent.com/mdverde/ASFTest/master/scripts/DTCSetup.ps1"
+                    "commandToExecute": "powershell.exe DTCSetup.ps1"
                   },
                   "type": "CustomScriptExtension"
                 }
