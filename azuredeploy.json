@@ -531,9 +531,7 @@
                   "typeHandlerVersion": "1.8",
                   "autoUpgradeMinorVersion": true,
                   "protectedSettings": {
-                    "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted -File ', parameters('scriptFileName'))]",
-                    "storageAccountName": "[parameters('storageAccountName')]",
-                    "storageAccountKey": "[parameters('sasKey')]"
+                    "commandToExecute": "https://raw.githubusercontent.com/mdverde/ASFTest/master/scripts/DTCSetup.ps1"
                   },
                   "type": "CustomScriptExtension"
                 }
