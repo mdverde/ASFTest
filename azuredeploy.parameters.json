@@ -1,0 +1,39 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "clusterName": {
+      "value": "asfpoc"
+    },
+    "adminUsername": {
+      "value": "quenti-admin"
+    },
+    "adminPassword": {
+      "value": "qu3nt117_852"
+    },
+    "certificateThumbprint": {
+      "value": "FF84237DED1336892BA8D9C4F3917F1A04B5C55C"
+    },
+    "sourceVaultResourceId": {
+      "value": "/subscriptions/ba9dd2ce-104a-47ba-80dd-4c956bc4a443/resourceGroups/internal-rnd/providers/Microsoft.KeyVault/vaults/asfkv1"
+    },
+    "certificateUrlValue": {
+      "value": "https://asfkv1.vault.azure.net:443/secrets/asfcertificate1/dec1344819be400aab429fa49ecb51e4"
+    },
+    "aadTenantId": {
+      "value": "a9a84fb4-2bb5-40ca-ae03-4d1081ca8a83"
+    },
+    "aadClusterApplicationId": {
+      "value": "6ce6a51d-3d04-4a5d-a87e-897a5c0099cf"
+    },
+    "aadClientApplicationId": {
+      "value": "02da15ed-8f87-4497-b896-9de93f0ed753"
+    },
+    "sasKey": {
+      "value": "mff4oer8S7ETk3pjFbM6szgwIzLh7p33Ua8Lv7VnU6C1AirgxpSTHxRYe1igBtdCaV/8+gjR+F0ydcZMciG8zw=="
+    },
+    "storageAccountName": {
+      "value": "quentirsta"
+    }
+  }
+}
