@@ -525,7 +525,7 @@
                   "publisher": "Microsoft.Compute",
                   "settings": {
                     "fileUris": [
-                      "https://raw.githubusercontent.com/mdverde/ASFTest/master/scripts/"
+                      "https://raw.githubusercontent.com/mdverde/ASFTest/master/scripts/DTCSetup.ps1"
                     ]
                   },
                   "typeHandlerVersion": "1.8",
